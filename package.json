@@ -1,0 +1,28 @@
+{
+  "name": "br-zencoder",
+  "version": "0.0.1",
+  "description": "Nodejs ZenCoder client library",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha -R spec --recursive spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/suwanny/br-zencoder.git"
+  },
+  "keywords": [
+    "zencoder"
+  ],
+  "dependencies": { 
+    "coffee-script": "1.6.2"
+    , "sprintf": "0.1.1"
+    , "lodash": "1.2.0"
+    , "mocha": "1.9.0"
+    , "should": "1.2.2"
+    , "request": "2.20.0"
+  },
+  "author": "Soo Hwan Park",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "02643d054f8e2bace8903ff4fdfe56eecd5d17a3"
+}
